@@ -23,4 +23,5 @@ urlpatterns = [
 
     path('wiki',views.wiki,name='wiki'),
 
+    path('conversion',views.conversion,name='conversion')
 ]
